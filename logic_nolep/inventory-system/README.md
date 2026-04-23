@@ -1,10 +1,6 @@
 # Inventory System Backend
-
 REST API for managing inventory, products, categories, orders, and users. Built with Node.js, Express, Prisma ORM, and PostgreSQL.
 
-**Base URL:** `http://localhost:3000`
-
----
 
 ## Table of Contents
 
@@ -97,8 +93,11 @@ Requests are validated using Zod through `validate()` middleware.
 * `catchAsync` - Forward async errors automatically
 
 ---
-
 # API Endpoints
+
+**Base URL (Local):** `http://localhost:3000`
+
+**Base URL (Production):** `https://inventory-system-yimf.onrender.com`
 
 ## Auth
 
@@ -254,6 +253,8 @@ Delete order item.
 npm test
 ```
 
-## Author
+## Deployment
 
-Inventory System Backend Project.
+Deployed on **Render** (Free Tier) with **Supabase** as the PostgreSQL database.
+
+**Live URL:** https://inventory-system-yimf.onrender.com
